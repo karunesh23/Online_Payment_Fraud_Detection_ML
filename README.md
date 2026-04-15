@@ -93,9 +93,16 @@ Online_Payment_Fraud_Detection_ML/
 ## 👨‍💻 Author
 
 **Karunesh Bansal**
+Have questions, suggestions, or want to collaborate?
+Feel free to reach out. I would be happy to connect and discuss ideas, projects, or opportunities.
 
 📧 **Email:** karuneshbansal84@gmail.com  
 
 💼 **LinkedIn:**  
 [https://www.linkedin.com/in/karunesh-bansal-780828380](https://www.linkedin.com/in/karunesh-bansal)
+I look forward to connecting with you! 🚀
+
+
+
+
 
