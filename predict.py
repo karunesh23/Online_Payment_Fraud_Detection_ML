@@ -9,10 +9,10 @@ new_transaction = pd.DataFrame([{
     "step": 200,
     "type": 4,                 # encoded type
     "amount": 5000.0,
-    "oldbalanceOrg": 20000.0,
-    "newbalanceOrig": 15000.0,
-    "oldbalanceDest": 1000.0,
-    "newbalanceDest": 6000.0,
+    "oldbalancesender": 20000.0,
+    "newbalancesender": 15000.0,
+    "oldbalancereciever": 1000.0,
+    "newbalancereceiver": 6000.0,
     "isFlaggedFraud": 0
 }])
 
@@ -20,6 +20,6 @@ new_transaction = pd.DataFrame([{
 prediction = model.predict(new_transaction)
 
 if prediction[0] == 1:
-    print("🚨 Fraudulent Transaction")
+    print("Fraudulent Transaction")
 else:
-    print("✅ Legitimate Transaction")
+    print("Legitimate Transaction")

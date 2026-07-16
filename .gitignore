@@ -3,8 +3,10 @@ __pycache__/
 *.pyc
 
 # Virtual environment
-ven/
+venv/
+.venv/
 env/
+ENV/
 
 # Dataset files
 *.csv
